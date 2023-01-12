@@ -14,7 +14,7 @@ function countryMarkup(countries) {
   const countryCard = countries
     .map(({ name, capital, population, flags, languages }) => {
       return `
-    <img src="${flags.svg}" alt="#" style="width:50px;height:30px;"/>
+    <img src="${flags.svg}" alt="#" style="width:100px;height:70px;"/>
     <h2>${name.common}</h2>
     <p>Capital: ${capital}</p>
     <p>Population: ${population}</p>
@@ -32,7 +32,7 @@ function countriesMarkup(countries) {
   const countriesList = countries
     .map(({ name, flags }) => {
       return `
-    <li><img src="${flags.svg}" alt="#" style="width:50px;height:30px;"/>
+    <li><img src="${flags.svg}" alt="#" style="width:100px;height:70px;"/>
     <h2>${name.common}</h2>
     </li>
     `;
@@ -54,21 +54,27 @@ function onInput(e) {
     refs.list.innerHTML = '';
     return;
   }
-
+  refs.infoBox.innerHTML = '';
+  refs.list.innerHTML = '';
   const result = fetchCountries(name);
 
   result
     .then(countries => countryCardMaker(countries))
     .catch(error => Notiflix.Notify.failure('error 404'));
+
 }
 
 function countryCardMaker(countries) {
   if (countries.length === 1) {
+    refs.infoBox.innerHTML = '';
+    refs.list.innerHTML = '';
     countryMarkup(countries);
   } else if (countries.length >= 2 && countries.length <= 10) {
+    refs.infoBox.innerHTML = '';
+    refs.list.innerHTML = '';
     countriesMarkup(countries);
   } else if (countries.length > 10) {
-    Notiflix.Notify.info(
+      Notiflix.Notify.info(
       'Too many matches found. Please enter a more specific name.'
     );
   } else if (countries.length === 0) {

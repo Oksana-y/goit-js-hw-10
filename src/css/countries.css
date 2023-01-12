@@ -1,12 +1,12 @@
-.country-list {
-   display: flex; 
-   gap: 20px;
-   align-items: center;
-   
-  
-}
 
 li {
     list-style-type: none;
-      
+    display: flex; 
+    align-items: center;
+    margin-bottom: 30px;
+       
+}
+
+img {
+    margin-right: 20px;
 }
