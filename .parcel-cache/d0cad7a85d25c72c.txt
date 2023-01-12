@@ -61,7 +61,7 @@
 105C:\practice\goit-js-hw-10\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV2\files\file1.txt133179372973091428 0
 77C:\practice\goit-js-hw-10\node_modules\@parcel\transformer-babel\lib\types.js133179372970386010 0
 63C:\practice\goit-js-hw-10\node_modules\abortcontroller-polyfill133179382481209084 1
-30C:\practice\goit-js-hw-10\dist133180090720511044 1
+30C:\practice\goit-js-hw-10\dist133180217661652577 1
 47C:\practice\goit-js-hw-10\src\sass\_common.scss133177547722960300 0
 78C:\practice\goit-js-hw-10\node_modules\css-tree\lib\common\OffsetToLocation.js133179372978907745 0
 79C:\practice\goit-js-hw-10\node_modules\caniuse-lite\data\features\array-flat.js133179372972631095 0
@@ -95,7 +95,7 @@
 45C:\practice\goit-js-hw-10\node_modules\@babel133179382392331742 1
 67C:\practice\goit-js-hw-10\node_modules\escape-string-regexp\license133179372965044519 0
 70C:\practice\goit-js-hw-10\node_modules\caniuse-lite\data\regions\LA.js133179372992913091 0
-47C:\practice\goit-js-hw-10\src\css\countries.css133179315015683134 0
+47C:\practice\goit-js-hw-10\src\css\countries.css133180210647182053 0
 77C:\practice\goit-js-hw-10\node_modules\posthtml-parser\dist\chunk.T6SARJYH.js133179372964537470 0
 47C:\practice\goit-js-hw-10\node_modules\error-ex133179382554426990 1
 75C:\practice\goit-js-hw-10\node_modules\lmdb\dependencies\lz4\lib\lz4frame.h133179372981115185 0
@@ -106,7 +106,7 @@
 75C:\practice\goit-js-hw-10\node_modules\htmlnano\lib\modules\mergeScripts.js133179372969867054 0
 38C:\practice\goit-js-hw-10\README.en.md133179367896007025 0
 70C:\practice\goit-js-hw-10\node_modules\@parcel\core\test\test-utils.js133179372983360795 0
-38C:\practice\goit-js-hw-10\src\index.js133180090745787113 0
+38C:\practice\goit-js-hw-10\src\index.js133180218253862750 0
 150C:\practice\goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-down\foo\bar\baz\real-bar.js133179372976380273 0
 102C:\practice\goit-js-hw-10\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV5\package.json133179372971782943 0
 46C:\practice\goit-js-hw-10\node_modules\@parcel133179383914381309 1
@@ -565,7 +565,7 @@
 75C:\practice\goit-js-hw-10\node_modules\caniuse-lite\data\features\jpegxr.js133179372992387738 0
 94C:\practice\goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\nested\index.js133179372972339342 0
 54C:\practice\goit-js-hw-10\node_modules\posthtml-render133179382598817744 1
-48C:\practice\goit-js-hw-10\dist\index.975ef6c8.js133180090720473744 0
+48C:\practice\goit-js-hw-10\dist\index.975ef6c8.js133180217661592592 0
 66C:\practice\goit-js-hw-10\node_modules\@lezer\common\dist\mix.d.ts133179372968222020 0
 61C:\practice\goit-js-hw-10\node_modules\nan\nan_string_bytes.h133179372970623176 0
 84C:\practice\goit-js-hw-10\node_modules\caniuse-lite\data\features\rest-parameters.js133179372995018820 0
@@ -4048,7 +4048,7 @@
 124C:\practice\goit-js-hw-10\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1133179382428020167 1
 79C:\practice\goit-js-hw-10\node_modules\@parcel\utils\src\generateCertificate.js133179372970515982 0
 77C:\practice\goit-js-hw-10\node_modules\@parcel\transformer-babel\lib\utils.js133179372970702610 0
-52C:\practice\goit-js-hw-10\dist\index.975ef6c8.js.map133180090720497988 0
+52C:\practice\goit-js-hw-10\dist\index.975ef6c8.js.map133180217661642639 0
 74C:\practice\goit-js-hw-10\node_modules\@parcel\utils\src\getCertificate.js133179372970667840 0
 70C:\practice\goit-js-hw-10\node_modules\@parcel\utils\src\getRootDir.js133179372970901878 0
 71C:\practice\goit-js-hw-10\node_modules\@parcel\utils\src\http-server.js133179372971282508 0
